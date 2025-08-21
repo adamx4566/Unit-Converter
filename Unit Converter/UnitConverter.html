@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="UnitConverter.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unit Converter</h1>
+
+    <div class="converter">
+      <label for="type">Choose conversion:</label>
+      <select id="type">
+        <option value="temperature">Temperature (°C ↔ °F)</option>
+        <option value="length">Length (km ↔ miles)</option>
+        <option value="weight">Weight (kg ↔ lbs)</option>
+      </select>
+
+      <input type="number" id="inputValue" placeholder="Enter value">
+      <button id="convertBtn">Convert</button>
+
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="UnitConverter.js"></script>
+</body>
+</html>
