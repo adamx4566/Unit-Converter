@@ -15,4 +15,4 @@ It supports temperature, length, and weight conversions in both directions.
 - CSS3
 - Vanilla JavaScript
 
-<img src="Timer/pictures/Timer.png" alt="UnitConverter preview" width="500">
+<img src="Unit Converter/pictures/UnitConverter.png" alt="UnitConverter preview" width="500">
